@@ -2,6 +2,16 @@
 
 `lp_mcp_server.py` は `calc_lp.py` の線形計画ソルバーを参考にして mcp サーバー化したものです。 `solve_linear_program` 関数経由で OR-Tools の結果を返します。
 
+## Python 依存関係のインストール
+
+Python 3.10 以降を用意し、仮想環境を作成してから OR-Tools と MCP サーバー実装で必要なライブラリをインストールします。
+
+```
+pip install ortools mcp typing_extensions
+```
+
+仮想環境を利用しない場合は、`pip install ...` の部分だけを実行してください。
+
 ## CLI 設定
 
 1. Codex CLI から依存関係のインストールやサーバー起動を行うため、該当リポジトリを CLI で開きます。
