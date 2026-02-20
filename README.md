@@ -1,6 +1,6 @@
 # OR MCP Server
 
-`lp_mcp_server.py` は `calc_lp.py` の線形計画ソルバーを [Model Context Protocol (MCP)](https://github.com/anthropics/model-context-protocol) サーバーとして公開し、`solve_linear_program` ツール経由で OR-Tools の結果を返します。
+`lp_mcp_server.py` は `calc_lp.py` の線形計画ソルバーを参考にして mcp サーバー化したものです。 `solve_linear_program` 関数経由で OR-Tools の結果を返します。
 
 ## CLI 設定
 
